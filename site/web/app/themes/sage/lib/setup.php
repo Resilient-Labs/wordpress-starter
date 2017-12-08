@@ -89,7 +89,8 @@ function display_sidebar() {
     is_page_template('page-template-example.php'),
   ]);
 
-  return apply_filters('sage/display_sidebar', $display);
+  //return apply_filters('sage/display_sidebar', $display);
+  return false; // hide sidebar
 }
 
 /**
